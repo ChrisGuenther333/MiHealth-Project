@@ -4,10 +4,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-#navBar {
+nav {
     background-color: white;
     padding: 15px;
-    justify-content: baseline;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #title1 {
     color: red;
@@ -15,24 +16,47 @@ body {
 #title2 {
     color: green;
 }
-ul {
+nav h1 {
+    display: inline;
+}
+nav ul {
+    display: inline;
     list-style: none;
+    text-align: right;
+}
+nav ul li {
     display: inline;
 }
-ul li {
-    display: inline;
-}
-#content {
+
+
+section {
     flex-direction: row;
 }
-#text {
+
+
+#conText {
     flex-direction: column;
-    display: inline;
-    height: 200px;
-    width: 200px;
+    width: 33%;
 }
 #text span {
     display: block;
+}
+#image {
+    justify-content: space-between;
+    flex-direction: row;
+}
+#image1 {
+    background-image: url('./Images/apple-breakfast-quinoa-7.jpg');
+    background-color: black;
+
+}
+#image2 {
+    background-image: url('./Images/pasta-salad-recipe-for-lunch.jpg');
+    background-color: black;
+}
+#image3 {
+    background-image: url('./Images/Screenshot_208.jpg');
+    background-color: black;
 }
 img {
     height: 15%;
