@@ -1,0 +1,9 @@
+body {
+    display:flexbox
+}
+#title1 {
+    color: red;
+}
+#title2 {
+    color: green;
+}
