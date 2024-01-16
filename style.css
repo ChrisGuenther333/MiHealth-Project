@@ -42,19 +42,26 @@ section {
     display: block;
 }
 #image {
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
 }
 #image1 {
+    height: 600px;
+    width: 300px;
     background-image: url('./Images/apple-breakfast-quinoa-7.jpg');
     background-color: black;
 
 }
 #image2 {
+    height: 600px;
+    width: 300px;
     background-image: url('./Images/pasta-salad-recipe-for-lunch.jpg');
     background-color: black;
+    display: ;
 }
 #image3 {
+    height: 600px;
+    width: 300px;
     background-image: url('./Images/Screenshot_208.jpg');
     background-color: black;
 }
