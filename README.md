@@ -1,2 +1,3 @@
 # MiHealth-Project
-Need to move text blocks on images to right side
+Unable to get text blocks on image to align just right
+Need to figure out how to display whole picture on image rather than just close-up
