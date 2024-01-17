@@ -102,16 +102,16 @@ section {
     align-items: end;
     text-align: center;
 }
-#images #span-1, #images #span-2 {
+#images .span1, #images .span2 {
     padding: 15px;
     text-align: right;
     font-weight: 450;
 }
-#images #span-1 {
+#images .span1 {
     background-color: white;
     width: 30%;
 }
-#images #span-2 {
+#images .span2 {
     background-color: rgb(82, 210, 68);
     width: 50%;
 }
