@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-h1, h2, h3, h4, h5, h6, li, span {
+h1, h2, h3, h4, h5, h6, li, p, span {
     font-family: 'Roboto Mono';
 }
 
@@ -52,8 +52,8 @@ section {
 }
 #text h2 {
     margin: 0;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
+    font-family: 'Archivo Black';
+    font-size: 50px;
 }
 #text span {
     margin-top: 10px;
@@ -90,21 +90,23 @@ section {
 }
 #image1, #image2, #image3 {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
 }
 #images #span-1, #images #span-2 {
     padding: 15px;
-    width: 30%;
-    align-items: center;
-    text-align: center;
+    text-align: right;
 }
 #images #span-1 {
     background-color: white;
+    width: 30%;
 }
 #images #span-2 {
     background-color: rgb(82, 210, 68);
+    width: 50%;
 }
-
 img {
     height: 15%;
     width: 15%;
