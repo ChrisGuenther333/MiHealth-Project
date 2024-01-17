@@ -4,65 +4,80 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 nav {
     background-color: white;
-    padding: 15px;
+    padding: 0 15px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 #title1 {
     color: red;
+    margin-left: 45px;
+    font-family: 'Rubik Burned';
+    font-size: 40px;
 }
 #title2 {
     color: green;
-}
-nav h1 {
-    display: inline;
+    font-family: 'Rubik Burned';
+    font-size: 40px;
 }
 nav ul {
-    display: inline;
     list-style: none;
-    text-align: right;
+    margin-right: 45px;
 }
 nav ul li {
     display: inline;
+    margin-left: 45px;
 }
-
 
 section {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin: 60px;
 }
-
-
-#conText {
+#text {
+    display: flex;
     flex-direction: column;
+    align-items: left;
     width: 33%;
 }
+#text h2 {
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
 #text span {
-    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline;
 }
 #image {
-    justify-content: space-around;
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 66%;
 }
 #image1 {
     height: 600px;
     width: 300px;
     background-image: url('./Images/apple-breakfast-quinoa-7.jpg');
-    background-color: black;
+    background-position:
 
 }
 #image2 {
     height: 600px;
     width: 300px;
     background-image: url('./Images/pasta-salad-recipe-for-lunch.jpg');
-    background-color: black;
 }
 #image3 {
     height: 600px;
     width: 300px;
     background-image: url('./Images/Screenshot_208.jpg');
-    background-color: black;
 }
 img {
     height: 15%;
